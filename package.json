@@ -1,0 +1,20 @@
+{
+	"name": "hello-web-developer",
+	"version": "0.1.0",
+	"description": "Based on Matt Mullenweg's popular 'Hello Dolly' plug-in, the 'Hello, Web Developer' block is a block for random quotes on the web. You can use it in your pages developed with block editors. This fantastic WordPress Block is dedicated to the many Web Developers who are approaching the wonderful world of WordPress",
+	"author": "Enzo Mele",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^26.10.0"
+	}
+}
