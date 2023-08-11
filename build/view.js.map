@@ -1,1 +1,0 @@
-{"version":3,"file":"view.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAE,0DAA2D,CAAC;AACzE,8B","sources":["webpack://hello-web-developer/./src/view.js"],"sourcesContent":["/* eslint-disable no-console */\nconsole.log( 'Hello World! (from create-block-hello-dolly-block block)' );\n/* eslint-enable no-console */\n"],"names":["console","log"],"sourceRoot":""}
